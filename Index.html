@@ -16,26 +16,57 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="shortcut icon" type="image/x-icon" href="Images/logo.png" />
+
     <title>AstroAksh</title>
   </head>
 
   <body>
+    <div id="preloader"></div>
     <header>
-      <a href="#" class="logo"><i class="fa-solid fa-bag-shopping"></i></a>
+      <a href="#" class="logo"><img src="Images/logo.png" alt="" /></a>
       <ul class="navchild">
         <li><a href="">Home</a></li>
         <div class="dropdown">
           <button class="btn" type="button" data-bs-toggle="dropdown">
-            <li><a href="">Horoscope</a></li>
+            <li><a href="">Our Services</a></li>
           </button>
           <ul class="dropdown-menu mt-5">
-            <li><a class="dropdown-item" href="#">FOR BUSINESS</a></li>
-            <li><a class="dropdown-item" href="#">FOR MARRIAGE</a></li>
-            <li><a class="dropdown-item" href="#">FOR LOVE MARRIAGE</a></li>
+            <li>
+              <a class="dropdown-item" href="#1">ASTROLOGY FOR BUSINESS</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#2">LOVE MARRIAGE SOLUTIONS</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#3">LOVE MARRIAGE SPECIALIST</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#4"
+                >LOVE MARRIAGE SPECIALIST BABA</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#5">ASTROLOGY FOR MARRIAGE</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#6">LOVE MARRIAGE ASTROLOGY</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#7">MARRIAGE KUNDALI MATCHING</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#8">MARRIAGE HOROSCOPE MATCHING</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#9"
+                >MARRIAGE PREDICTION ASTROLOGY</a
+              >
+            </li>
           </ul>
         </div>
-        <li><a href="">Service</a></li>
-        <li><a href="">Contact</a></li>
+
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <div class="navicon">
         <a href="#"><i class="fa-regular fa-user"></i></a>
@@ -50,10 +81,8 @@
         <div class="homeScreen1">
           <p>UNPACK THE MYSTERIES OF THE UNIVERSE</p>
           <p id="hs2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            architecto temporibus dicta optio, assumenda labore illo dolorem
-            odit pariatur. Porro nemo saepe laborum aut earum sequi illo
-            inventore non! Velit!
+            Learn about astrology, zodiac signs more! Your world becomes clear
+            on how the universe influences it.
           </p>
         </div>
         <div class="homeScreen2">
@@ -72,19 +101,32 @@
         <div class="homeChild21">
           <div class="homeChild21im">
             <img src="/Images/tarot.png" alt="" />
-            <p>TAROT</p>
+            <p id="tarot">TAROT</p>
+            <p class="p2">
+              Tarot readings are often sought for guidance, self-reflection, or
+              exploration of potential outcomes in various aspects of life.
+            </p>
           </div>
         </div>
         <div class="homeChild22">
           <div class="homeChild21im">
             <img src="/Images/Planet.png" alt="" />
-            <p>PLANETS</p>
+            <p id="planet">PLANETS</p>
+            <p class="p2">
+              Planets play a crucial role as they are considered significant
+              celestial bodies that influence various aspects of an individual's
+              personality, behavior, and life events.
+            </p>
           </div>
         </div>
         <div class="homeChild23">
           <div class="homeChild21im">
             <img src="/Images/Talisman.png" alt="" />
-            <p>TALISMAN</p>
+            <p id="Talisman">TALISMAN</p>
+            <p class="p2">
+              Talisman is believed to have magical properties and is thought to
+              bring good luck, protection, or specific benefits to its owner.
+            </p>
           </div>
         </div>
       </div>
@@ -154,48 +196,51 @@
           </div>
         </div>
       </div>
-      <h1>OUR SERVICES</h1>
       <div class="services">
+        <h1>OUR SERVICES</h1>
+
         <div>
-          <div class="services1"></div>
+          <div class="services1" id="1"></div>
           <h5>ASTROLOGY FOR BUSINESS</h5>
         </div>
         <div>
-          <div class="services2"></div>
+          <div class="services2" id="2"></div>
           <h5>LOVE MARRIAGE SOLUTIONS</h5>
         </div>
         <div>
-          <div class="services3"></div>
+          <div class="services3" id="3"></div>
           <h5>LOVE MARRIAGE SPECIALIST</h5>
         </div>
         <div>
-          <div class="services4"></div>
+          <div class="services4" id="4"></div>
           <h5>LOVE MARRIAGE SPECIALIST BABA</h5>
         </div>
         <div>
-          <div class="services5"></div>
+          <div class="services5" id="5"></div>
           <h5>ASTROLOGY FOR MARRIAGE</h5>
         </div>
         <div>
-          <div class="services6"></div>
+          <div class="services6" id="6"></div>
           <h5>LOVE MARRIAGE ASTROLOGY</h5>
         </div>
         <div>
-          <div class="services7"></div>
+          <div class="services7" id="7"></div>
           <h5>MARRIAGE KUNDALI MATCHING</h5>
         </div>
         <div>
-          <div class="services8"></div>
+          <div class="services8" id="8"></div>
           <h5>MARRIAGE HOROSCOPE MATCHING</h5>
         </div>
         <div>
-          <div class="services9"></div>
+          <div class="services9" id="9"></div>
           <h5>MARRIAGE PREDICTION ASTROLOGY</h5>
         </div>
       </div>
-      <div class="formdiv">
+      <div class="formdiv" id="contact">
         <img src="chakra.png" alt="" />
         <form>
+          <h1>PLEASE DO NOT HESITATE TO SEND US A MESSAGE</h1>
+
           <div>
             <input type="text" placeholder="Full Name" />
             <input type="email" placeholder="Email Address" />
@@ -226,11 +271,81 @@
         </form>
       </div>
     </div>
-    <!-- <footer></footer> -->
+    <footer class="footer">
+      <div class="footer1">
+        <h4>CONTACT INFO</h4>
+        <p><i class="fa-solid fa-phone"></i> +91 1234567890</p>
+        <p><i class="fa-solid fa-envelope"></i> astroaksh@gmail.com</p>
+        <p>
+          <i class="fa-sharp fa-solid fa-location-dot"></i> 123 Lorem ipsum
+          dolor sit amet.
+        </p>
+      </div>
+      <div class="footer2">
+        <h4>HOROSCOPES</h4>
+        <p><i class="fa-solid fa-star"></i> <a href="">Daily Horoscopes</a></p>
+        <p><i class="fa-solid fa-star"></i> <a href="">Weekly Horoscopes</a></p>
+        <p>
+          <i class="fa-solid fa-star"></i> <a href="">Monthly Horoscopes</a>
+        </p>
+        <p><i class="fa-solid fa-star"></i> <a href="">Yearly Horoscopes</a></p>
+      </div>
+      <div class="footer3">
+        <h4>OUR SERVICES</h4>
+        <p>
+          <i class="fa-solid fa-star"></i><a href="#5"> Marriage Matching</a>
+        </p>
+        <p>
+          <i class="fa-solid fa-star"></i>
+          <a href="#6">Marriage & Love Marriage astrology</a>
+        </p>
+        <p>
+          <i class="fa-solid fa-star"></i>
+          <a href="#2">Love Marriage Problem Solution</a>
+        </p>
+        <p>
+          <i class="fa-solid fa-star"></i
+          ><a href="#7"> kundali & Horoscope Matching</a>
+        </p>
+        <p>
+          <i class="fa-solid fa-star"></i>
+          <a href="#4">Love Marriage Astrologer & Baba Ji</a>
+        </p>
+        <p>
+          <i class="fa-solid fa-star"></i><a href="#9"> Marriage Predictions</a>
+        </p>
+      </div>
+      <div class="footer4">
+        <h4>MORE SERVICES</h4>
+        <p>
+          <i class="fa-solid fa-star"></i>
+          <a href="#1"> Astrology For Business</a>
+        </p>
+        <p>
+          <i class="fa-solid fa-star"></i>
+          <a href="#tarot"> Tarot Card Reading</a>
+        </p>
+        <p>
+          <i class="fa-solid fa-star"> </i>
+          <a href="#planets"> Planets Prediction</a>
+        </p>
+        <p>
+          <i class="fa-solid fa-star"> </i>
+          <a href="#talisman"> Talisman</a>
+        </p>
+      </div>
+    </footer>
   </body>
+
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"
   ></script>
+  <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    });
+  </script>
 </html>
