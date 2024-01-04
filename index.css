@@ -52,7 +52,7 @@
     .navchild a {
       color: var(--color);
       padding: var(--tenpx) 15px;
-      font-size: var(--font);
+      font-size: 25px;
     }
 
     .navchild a:hover {
