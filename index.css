@@ -107,7 +107,7 @@
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     #hs2{
-        font-size: 18px;
+        font-size: 22px;
         color: black;
 
     }
@@ -212,7 +212,8 @@
       color: #faf3f3;
           text-align: center;
     }
-    .homeChild21im .p2{font-size: 20px;
+    .homeChild21im .p2{
+      font-size: 24px;
       font-family: serif;
       text-align: center;
       text-wrap: wrap;
@@ -257,6 +258,7 @@
     .zodiacSignC p {
       margin-left: 10px;
       text-align: center;
+      text-wrap: wrap;
       font-size: 15px;
       font-weight: 700;
       color: #1c1919;
@@ -267,6 +269,7 @@
     .zodiacSignC img:hover {
       transform: rotate(45deg);
     }
+    
 
     /*  */
     /*  */
@@ -493,7 +496,7 @@
         .homeChild21,
         .homeChild22,
         .homeChild23{
-            height: 600px;
+            height: 650px;
         }
        
     }
@@ -546,7 +549,7 @@
         .homeChild21,
         .homeChild22,
         .homeChild23{
-            height: 600px;
+            height: 650px;
         }
         .homeChild21im p{
           margin: 0;
@@ -575,7 +578,7 @@
         .homeChild21,
         .homeChild22,
         .homeChild23{
-            height: 600px;
+            height: 650px;
         }
        
         .homeChild21im p{
@@ -607,12 +610,13 @@
         .homeChild21,
         .homeChild22,
         .homeChild23{
-            height: 600px;
+            height: 650px;
         }
         .zodiacSignC p{
           font-size: 12px; 
          font-weight: 900;
-
+        
         }
+    
     }
  
